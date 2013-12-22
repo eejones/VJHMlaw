@@ -554,6 +554,28 @@ headlist ul{
   display: inline;
 }
 
+header div .headerrow4{
+  height:auto;
+  margin-left: auto;
+  margin-right:auto;
+  width:930px;
+  img{
+    height:50px;
+    width:auto;
+    max-height:100%;
+    float: left;
+  }
+  span{
+    max-height: 100%;
+    float:right;
+    font-size:15px;
+    line-height: 15px;
+    color:$black;
+    margin-top:3px;
+    margin-bottom:0px;
+  }
+}
+
 
 #logo {
   float: left;
