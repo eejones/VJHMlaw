@@ -1,0 +1,32 @@
+!!!!
+%html
+  %head
+    %title Vanost Jones Harmon Miller LLC
+    %link{:rel=>"shortcut icon", :src=>"downtownclown.jpeg", :alt=>"KVJM Law"}
+    = stylesheet_link_tag    "vjhmtemplate", :media => "all"
+    = csrf_meta_tags
+    = javascript_include_tag "application"
+    %script{src: "/assets/bootstrap-transition.js?body=1"}
+    %script{src: "/assets/bootstrap-affix.js?body=1"}
+    %script{src: "/assets/bootstrap-alert.js?body=1"}
+    %script{src: "/assets/bootstrap-button.js?body=1"}
+    %script{src: "/assets/bootstrap-carousel.js?body=1"}
+    %script{src: "/assets/bootstrap-collapse.js?body=1"}
+    %script{src: "/assets/bootstrap-dropdown.js?body=1"}
+    %script{src: "/assets/bootstrap-modal.js?body=1"}
+    %script{src: "/assets/bootstrap-scrollspy.js?body=1"}
+    %script{src: "/assets/bootstrap-tab.js?body=1"}
+    %script{src: "/assets/bootstrap-tooltip.js?body=1"}
+    %script{src: "/assets/bootstrap-popover.js?body=1"}
+    %script{src: "/assets/bootstrap-typeahead.js?body=1"}
+    %script{src: "/assets/bootstrap.js?body=1"}
+  %body
+    = javascript_include_tag "application"
+    %div.content
+      = render 'layouts/header'
+      .rightcontainer.fill
+      .centralunit
+        %div.leftunit= yield
+        - if #{request.original_url contains "Katharine_Vanost_Jones"}
+          = render 'home/pictureform'
+    = render 'layouts/footer'

@@ -1,0 +1,42 @@
+.pictureunit
+  :javascript
+    jQuery.noConflict(); // Reverts '$' variable back to other JS libraries
+    jQuery(document).ready( function(){ 
+    $('#pictureunit').innerfade({ 
+    animationtype: 'fade', 
+    speed: 1000, 
+    timeout: 2000,
+    type: 'sequence', 
+    containerheight: '250px' 
+    });
+    } );
+  - if params[:action]=='kvjones'
+    = image_tag("kvjones.png", :alt=> "Katharine Vanost Jones", :width=>'350px')
+  - elsif params[:action]=='chmiller'
+    = image_tag("chmiller.png", :alt=> "A picture of Carrie")
+  -else
+    %ul#pictureunit.innerfade
+      %li
+        = image_tag("southwestindiana.png", :alt=> "Southwest Indiana")
+      %li
+        = image_tag("civiccenter.jpg", :alt=> "Civic Center")
+      %li
+        = image_tag("oldcourthousedaytime.jpg", :alt=> "Old Courthouse")
+      %li
+        = image_tag("evansville.jpg", :alt=> "This is Evansville")
+      %li
+        = image_tag("riverfrontday.jpg", :alt=> "Evansville Riverfront")
+      %li
+        = image_tag("warrickcourthouse.jpg", :alt=> "Warrick County Courthouse")
+      %li
+        = image_tag("darmstadt.jpg", :alt=> "Welcome to Darmstadt")
+      %li
+        = image_tag("riverfront.jpg", :alt=> "Riverfront")
+      %li
+        = image_tag("gibsoncountycourthouse.jpg", :alt=> "Gibson County Courthouse")
+      %li
+        = image_tag("audubonbridge.jpg", :alt=> "Audubon Memorial Bridge")
+      %li
+        = image_tag("poseycountycourthouse.jpg", :alt=> "Posey County Courthouse")
+      %li
+        = image_tag("greyhound.jpg", :alt=> "Greyhound Station Downtown")

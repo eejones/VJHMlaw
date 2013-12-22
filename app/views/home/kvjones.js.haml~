@@ -1,0 +1,2 @@
+/* Replace innerfade images */
+$("#pictureunit").html("#{"<img alt="Katharine Jones" src="/assets/kvjones.png" />"}");

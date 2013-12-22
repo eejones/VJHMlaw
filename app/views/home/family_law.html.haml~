@@ -1,0 +1,17 @@
+%div
+  %h3 Family Law
+  %p If you’re facing a divorce or a custody dispute, please give us a call. Regardless of how simple or complex you believe the case to be, we’re sure you’ll benefit from our services.
+  %p Our family law practice is primarily in these areas:
+  .sales1
+    %ul
+      %li Adoptions
+      %li Mediation
+      %li CHINS 
+      %li Prenuptial Agreements
+  .sales2
+    %ul
+      %li Divorce
+      %li Child Custody
+      %li Child Support
+      %li Paternity and Post Paternity Litigation
+  %br

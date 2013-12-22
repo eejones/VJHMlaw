@@ -1,0 +1,31 @@
+%h3 Carrie Harmon Miller
+%div.salesall
+  %p Carrie E. Harmon is a southern Indiana native and sole proprietor of Harmon Law Office, has extensive trial practice and experience in varied fields.  Carrie effectively and aggressively represents her clients, with timely responses to inquiries, fair rates, and passionate advocacy.  Carrie has experience in family, criminal, juvenile, probate, and administrative matters.  When you need help navigating legal processes or getting your voice heard in court, call Harmon Law Office.
+  %p We sell brand new, refurbished, and pre-owned equipment such as:
+  .sales1
+    %ul
+      %li DR Detector Room and Portable Upgrades
+      %li DR Portables
+      %li Complete DR and CR Rad rooms
+      %li DR and CR R/F rooms
+      %li CR Reader Units
+      %li Ultrasounds
+      %li CT’s
+      %li Bone Density Machines
+  .sales2
+    %ul
+      %li Monitors and their related Mavig suspension components
+      %li C-Arms
+      %li Digital Mammography
+      %li Printers
+      %li PACS Systems
+      %li Supplies
+      %li Film
+      %li CR Cassette Repair
+  %br
+  %p
+    Contact us at 1-800-421-2402 or
+    %a{:href=>"mailto:AndrewBrinkmanii@gmail.com"} AndrewBrinkmanii@gmail.com
+    for sales information or questions regarding any of these products.
+
+
