@@ -12,7 +12,9 @@ gem 'therubyracer'
 gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
+#replacing sqlite3 with pg for heroku
+gem 'pg'
 
 # Using haml
 gem 'haml'
