@@ -1,17 +1,5 @@
 %header{:class=>"navbar navbar-fixed-top navbar-inverse"}
   .header
-    %div.headerrow3
-    %div.headerrow2
-      = link_to image_tag("downtownclown.jpeg", :alt=> "KVJM Law"), root_path
-      %div.sideinfo
-        %span
-          Vanost Jones Harmon Miller Law
-          %br
-          123 NW 4th Street, Suite 301
-          %br
-          Evansville, IN 47708
-          %br
-          Telephone:(812) 424-3518
     %div.headerrow1
       %ul
         %li= link_to "Home", root_path
@@ -29,3 +17,15 @@
         %li= link_to "Bankruptcy Law", '/Bankruptcy_Law'
         %li{:style=>"border-right-width: 0px"}
           = link_to "Contact Us", '/Contact_Us'
+    %div.headerrow2
+      = link_to image_tag("downtownclown.jpeg", :alt=> "KVJM Law"), root_path
+      %div.sideinfo
+        %span
+          Vanost Jones Harmon Miller Law
+          %br
+          123 NW 4th Street, Suite 301
+          %br
+          Evansville, IN 47708
+          %br
+          Telephone:(812) 424-3518
+    %div.headerrow3

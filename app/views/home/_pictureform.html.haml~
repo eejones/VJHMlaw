@@ -6,12 +6,12 @@
     animationtype: 'fade', 
     speed: 1000, 
     timeout: 2000,
-    type: 'sequence', 
+    type: 'random', 
     containerheight: '250px' 
     });
     } );
   - if params[:action]=='kvjones'
-    = image_tag("kvjones.png", :alt=> "Katharine Vanost Jones", :width=>'350px')
+    = image_tag("kvjones.png", :alt=> "Katharine Vanost Jones", :width=>'350px', :style=>"background-color: #FFFFFF")
   - elsif params[:action]=='chmiller'
     = image_tag("chmiller.png", :alt=> "A picture of Carrie")
   - elsif params[:action]=='contact_us'

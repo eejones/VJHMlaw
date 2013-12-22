@@ -10,6 +10,7 @@
     (812) 434-4981
     %a{:href=>"mailto:joneserice@gmail.com"} joneserice@gmail.com
     %br
+    %br
+    = image_tag "http://maps.googleapis.com/maps/api/staticmap?markers=color:orange|label:E|123 NW 4th St Evansville,IN&center=123 NW 4th St Evansville,IN&zoom=14&size=400x400&sensor=false"
     /
-      = image_tag "http://maps.googleapis.com/maps/api/staticmap?markers=color:orange|label:E|123 NW 4th St Evansville,IN&center=123 NW 4th St Evansville,IN&zoom=14&size=400x400&sensor=false"
-    %iframe{frameborder: "0", height: "320", marginheight: "0", marginwidth: "0", scrolling: "no", src: "http://www.mapquest.com/embed?icid=mqdist_mb_tools&c=0wEd&maptype=map&zm=14&cr=37.97303,-87.5723&projection=sm&showScale=false", width: "300"}
+      %iframe{frameborder: "0", height: "320", marginheight: "0", marginwidth: "0", scrolling: "no", src: "http://www.mapquest.com/embed?icid=mqdist_mb_tools&c=0wEd&maptype=map&zm=14&cr=37.97303,-87.5723&projection=sm&showScale=false", width: "300"}
