@@ -6,7 +6,7 @@
     animationtype: 'fade', 
     speed: 1000, 
     timeout: 2000,
-    type: 'sequence', 
+    type: 'random', 
     containerheight: '250px' 
     });
     } );
@@ -14,6 +14,8 @@
     = image_tag("kvjones.png", :alt=> "Katharine Vanost Jones", :width=>'350px')
   - elsif params[:action]=='chmiller'
     = image_tag("chmiller.png", :alt=> "A picture of Carrie")
+  - elsif params[:action]=='contact_us'
+    %iframe{frameborder: "0", height: "400", marginheight: "0", marginwidth: "0", scrolling: "no", src: "http://www.mapquest.com/embed?icid=mqdist_mb_tools&c=0wEd&maptype=map&zm=14&cr=37.97303,-87.5723&projection=sm&showScale=false", width: "450"}
   -else
     %ul#pictureunit.innerfade
       %li
