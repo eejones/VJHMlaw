@@ -491,7 +491,7 @@ header div .headerrow2{
   height:82.5px;
   margin-left: auto;
   margin-right:auto;
-  width:675px;
+  width:775px;
   img{
     max-height:100%;
     float: left;
@@ -529,9 +529,10 @@ header div .headerrow2{
   span{
     max-height: 100%;
     float:right;
-    font-size:15px;
+    font-size:13px;
+    font-wight:normal;
     line-height: 15px;
-    color:$black;
+    color:$bluedark;
     margin-top:3px;
     margin-bottom:3px;
     }
@@ -888,14 +889,15 @@ p {
 /* footer */
 
 footer {
+  span{
   position:fixed;
   bottom: 0;
   height: 15px;
   clear:both; 
   width: 100%;
-  padding-right: 15%;
-  padding-left: 15%;
-  color: $bluedark;
+  text-align: center;
+  color:$dbluetitletxt;
+  font-size:10px;
   background-image: url("bgnavi.png");
   background-repeat: repeat;
 /*  background-color: $burntorangebg;*/
@@ -903,7 +905,8 @@ footer {
   p{
     color:$dbluetitletxt;
     font-size:10px;
-    text-align:center;
+    text-align:right;
+    float:right;
   }
 
   a {
@@ -930,4 +933,5 @@ footer {
      padding-right:10px;
      }
   }
+}
 }

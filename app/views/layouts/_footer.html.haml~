@@ -1,0 +1,5 @@
+%footer.footer
+  %span
+    Vanost Jones Harmon Miller Law | 123 NW 4th Street, Suite 301 | Evansville, IN 47708 | Telephone:(812) 424-3518| Copyright
+    = Time.now.year
+    VJHM Law LLC
