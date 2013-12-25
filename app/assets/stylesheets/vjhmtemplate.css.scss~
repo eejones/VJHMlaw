@@ -450,6 +450,7 @@ header div .headerrow1{
             padding:0px;
             color:$offwhite;
             background-color: $selectionbluebg;
+            background-image:none;
           }
       }
     }
