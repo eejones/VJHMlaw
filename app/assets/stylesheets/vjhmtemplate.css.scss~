@@ -558,7 +558,7 @@ header div .headerrow4{
   height:auto;
   margin-left: auto;
   margin-right:auto;
-  width:675px;
+  width:930px;
   img{
     height:50px;
     width:auto;

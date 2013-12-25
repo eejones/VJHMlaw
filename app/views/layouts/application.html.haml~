@@ -26,7 +26,6 @@
       = render 'layouts/header'
       .rightcontainer.fill
       .centralunit
+        = render 'home/pictureform'
         %div.leftunit= yield
-        - if #{request.original_url contains "Katharine_Vanost_Jones"}
-          = render 'home/pictureform'
     = render 'layouts/footer'
