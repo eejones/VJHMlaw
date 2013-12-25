@@ -18,6 +18,7 @@ $burntorangebg: #C05C18;
 $offwhite: #eeeeee;
 $lightbluebutton: #304A83;
 $midbluebg:#3A4887;
+$selectionbluebg: #7882B3;
 @mixin box_sizing {
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
@@ -437,6 +438,7 @@ header div .headerrow1{
       &:hover{
         margin:0px;
         padding:0px;
+        background-color: $selectionbluebg;
         a{
           font-size:13px;
           margin:0px;
@@ -447,6 +449,7 @@ header div .headerrow1{
             margin:0px;
             padding:0px;
             color:$offwhite;
+            background-color: $selectionbluebg;
           }
       }
     }
@@ -529,7 +532,7 @@ header div .headerrow2{
   span{
     max-height: 100%;
     float:right;
-    font-size:15px;
+    font-size:13px;
     font-wight:normal;
     line-height: 15px;
     color:$bluedark;
