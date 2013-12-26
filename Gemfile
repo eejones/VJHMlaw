@@ -47,6 +47,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#using modernizr js library to detect for touchscreen devices
+gem 'modernizr-rails'
 
 #for integration with Heroku on Rails 4
 #gem 'rails_12factor', group: :production

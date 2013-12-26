@@ -40,7 +40,7 @@ html body {
   height:auto;
   padding-top: 0px;
 /*  background-color: $backgroundgray;*/
-  background-image: url("justgrayBG.jpg");
+  background-image: url("ShortLogo BlueFont WhiteBG Grayspacer.jpg");
   background-repeat: repeat;
   background-position: center top;
   font-family: arial, helvetica, sans-serif;
@@ -411,9 +411,6 @@ header div .headerrow1{
         background-image: none;
         background-color: $midbluebg;
       }
-     &:hover > ul.dropdown-menu {
-       display: block;
-       }
     ul .dropdownformat{
     color: $black;
     text-color: $black;
