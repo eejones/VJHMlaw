@@ -1,4 +1,4 @@
-%header{:class=>"navbar navbar-fixed-top navbar-inverse"}
+%header{:class=>"navbar navbar-inverse"}
   .header
     %div.headerrow4
       =link_to image_tag("VJHM Logo white font greyishBG.jpg", :alt=> "VJHM Law"), root_path
