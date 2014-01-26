@@ -566,6 +566,7 @@ header div .headerrow4{
     width:auto;
     max-height:100%;
     float: left;
+    background-color:$backgroundgray;
   }
   span{
     max-height: 100%;
