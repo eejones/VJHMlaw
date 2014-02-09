@@ -6,6 +6,8 @@ VJHMLLC::Application.routes.draw do
   get '/Katharine_Vanost_Jones', :to=> 'home#kvjones'
   get '/Carrie_Harmon_Miller', :to=> 'home#chmiller'
 
+  get '/pinterest-8c240.html', :to=> 'home#pinterest-8c240'
+
   get "home/index"
 
   # You can have the root of your site routed with "root"

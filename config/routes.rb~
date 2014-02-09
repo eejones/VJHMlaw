@@ -3,9 +3,10 @@ VJHMLLC::Application.routes.draw do
   get '/Family_Law', :to=> 'home#family_law'
   get '/Bankruptcy_Law',   :to=> 'home#bankruptcy_law'
   get '/Contact_Us', :to=> 'home#contact_us'
-  get '/Attorneys/Katharine_Vanost_Jones', :to=> 'home#kvjones'
-  get '/Attorneys/Carrie_Harmon_Miller', :to=> 'home#chmiller'
+  get '/Katharine_Vanost_Jones', :to=> 'home#kvjones'
+  get '/Carrie_Harmon_Miller', :to=> 'home#chmiller'
 
+  get '/pinterest-8c240.html', :to=> 'home#pinterest-8c240'
   get "home/index"
 
   # You can have the root of your site routed with "root"
