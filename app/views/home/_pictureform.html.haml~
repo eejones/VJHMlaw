@@ -11,7 +11,7 @@
   } );
 - if params[:action]=='kvjones'
   .attorneypictureunit
-    = image_tag("kvjones.jpg", :alt=> "Katharine Vanost Jones", :style=>"width:300px;height:auto")
+    = image_tag("kvjones.jpg", :alt=> "Katharine Vanost Jones", :style=>"width:400px;height:auto")
 - elsif params[:action]=='chmiller'
   .attorneypictureunit
     = image_tag("momandchild.jpg", :alt=> "A picture of Carrie")
