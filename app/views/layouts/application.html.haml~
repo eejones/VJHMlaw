@@ -3,7 +3,6 @@
   %head
     %title Evansville Attorneys - Family law and Bankruptcy Law - Evansville and Southwestern Indiana - Vanost Jones Harmon Miller LLC
     %meta{content: "8c240401d67c4a0df698efb6d9dadd86", name: "p:domain_verify"}/
-    %link{:rel=>"shortcut icon", :src=>"downtownclown.jpeg", :alt=>"KVJM Law"}
     %link{href: "mobilevjhmtemplate", media: "screen and (max-device-width: 480px)", rel: "stylesheet", type: "text/css"}
     = stylesheet_link_tag    "vjhmtemplate", :media => "all"
     = csrf_meta_tags
